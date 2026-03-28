@@ -15,7 +15,9 @@ export default function Top2Box(poop) {
     normalVar = 10; // change normal variable
     ref.current += 1; // change in reference variable
     console.log(ref);
-    // setCount(count + 1); // trigger re-render
+    if (ref.current == 20) {
+      setCount(count + 1); // trigger re-render
+    }
   };
   return (
     <div>
