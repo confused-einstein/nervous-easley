@@ -4,7 +4,7 @@ import Top2Box from "./Components/NewComp";
 export default function App() {
   return (
     <>
-      <Top2Box name="Himanshu Sondi" />
+      <Top2Box name="Himanshu Soni" />
       <div className="App">
         <h1>Hello CodeSandbox</h1>
         <h2>Start editing to see some magic happen!</h2>
